@@ -1,0 +1,28 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title></title>
+	<meta charset="utf-8" />
+    <script src="Scripts/bootstrap.min.js"></script>
+    <script src="Scripts/jquery-1.9.1.min.js"></script>
+    <script src="jquery.fs.wallpaper.js"></script>
+    <link href="jquery.fs.wallpaper.css" rel="stylesheet" />
+
+</head>
+<body>
+    <h1>Hello World</h1>
+    <div id="wall">Hello</div>
+    <script>
+        $(function () {
+            $("#wall").wallpaper({
+                source: {
+                    poster: "images/leaf.jpg",
+                    mp4:"images/nature.mp4"
+                }
+            });
+
+        });
+
+    </script>
+</body>
+</html>
